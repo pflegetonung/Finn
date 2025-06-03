@@ -1,20 +1,13 @@
-//
-//  FinnAppApp.swift
-//  FinnApp
-//
-//  Created by Phillip on 04.05.2025.
-//
-
 import SwiftUI
 
 @main
 struct FinnAppApp: App {
-//    @StateObject private var settingsVM = SettingsViewModel()
+    @StateObject private var settingsVM = ProfileViewModel(coordinator: ContentCoordinator())
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-//                .environmentObject(settingsVM)
+                .environmentObject(settingsVM)
         }
     }
 }

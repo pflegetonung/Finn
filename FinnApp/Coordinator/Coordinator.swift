@@ -1,10 +1,3 @@
-//
-//  ContentCoordinator.swift
-//  FinnApp
-//
-//  Created by Phillip on 06.05.2025.
-//
-
 import SwiftUI
 
 final class ContentCoordinator: ObservableObject {
@@ -24,9 +17,13 @@ final class ContentCoordinator: ObservableObject {
     func destinationView(for route: Route) -> some View {
         switch route {
         case .settings:
-            SettingsView()
+            ZStack {
+                
+            }
         case .stats:
-            StatsView()
+            ZStack {
+                
+            }
         }
     }
 }

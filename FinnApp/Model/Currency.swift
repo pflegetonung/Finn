@@ -1,10 +1,3 @@
-//
-//  CurrencyModel.swift
-//  FinnApp
-//
-//  Created by Phillip on 06.05.2025.
-//
-
 import Foundation
 
 enum Currency: CaseIterable, Hashable {

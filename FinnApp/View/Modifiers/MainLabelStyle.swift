@@ -1,10 +1,3 @@
-//
-//  MainLabelStyle.swift
-//  FinnApp
-//
-//  Created by Phillip on 06.05.2025.
-//
-
 import SwiftUI
 
 struct MainLabelStyle: ViewModifier {
@@ -14,7 +7,7 @@ struct MainLabelStyle: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .font(.system(size: size, weight: weight, design: .rounded))
+            .font(.system(size: size, weight: weight, design: .default))
             .foregroundColor(color)
     }
 }

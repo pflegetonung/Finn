@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		64BDF79E2DE7D3DD001895AF /* Sticker in Frameworks */ = {isa = PBXBuildFile; productRef = 64BDF79D2DE7D3DD001895AF /* Sticker */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		64EF170A2DC8012D00788BA4 /* FinnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BDF79E2DE7D3DD001895AF /* Sticker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = FinnApp;
 			packageProductDependencies = (
+				64BDF79D2DE7D3DD001895AF /* Sticker */,
 			);
 			productName = FinnApp;
 			productReference = 64EF170A2DC8012D00788BA4 /* FinnApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 64EF17012DC8012D00788BA4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64BDF79C2DE7D3DD001895AF /* XCRemoteSwiftPackageReference "sticker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64EF170B2DC8012D00788BA4 /* Products */;
 			projectDirPath = "";
@@ -334,6 +343,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64BDF79C2DE7D3DD001895AF /* XCRemoteSwiftPackageReference "sticker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bpisano/sticker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64BDF79D2DE7D3DD001895AF /* Sticker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64BDF79C2DE7D3DD001895AF /* XCRemoteSwiftPackageReference "sticker" */;
+			productName = Sticker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64EF17022DC8012D00788BA4 /* Project object */;
 }

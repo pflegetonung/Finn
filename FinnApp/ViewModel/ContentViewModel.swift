@@ -1,10 +1,3 @@
-//
-//  ContentViewModel.swift
-//  FinnApp
-//
-//  Created by Phillip on 06.05.2025.
-//
-
 import SwiftUI
 
 final class ContentViewModel: ObservableObject {
